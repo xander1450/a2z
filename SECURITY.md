@@ -8,7 +8,7 @@
 
 ## Reporting a Vulnerability
 
-Please report any security vulnerability by emailing **security@yourdomain.com** with a clear description of the issue, steps to reproduce, and potential impact. We aim to respond within 48 hours and will work with you to resolve the issue.
+Please report any security vulnerability by emailing **adityxxx2003@gmail.com** with a clear description of the issue, steps to reproduce, and potential impact. We aim to respond within 48 hours and will work with you to resolve the issue.
 
 ## Disclosure Timeline
 
