@@ -1,5 +1,20 @@
 # {Project Name}
 
+## 📈 Application Flow
+
+The app follows a modern SSR + client‑side hydration pattern typical of Next.js 13. Below is a high‑level flow diagram illustrating the user experience from the moment a request hits the server to interactive UI updates.
+
+```mermaid
+flowchart TD
+    A[User opens browser] --> B[Next.js server renders page (SSR)]
+    B --> C[HTML sent to client]
+    C --> D[Client‑side hydration]
+    D --> E[Interactive UI components]
+    E --> F[API calls to backend (if any)]
+    F --> G[Render dynamic data]
+    G --> H[Update UI]
+```
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Next.js](https://img.shields.io/badge/Next.js-13-black?logo=nextdotjs)](https://nextjs.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-20-green?logo=node.js)](https://nodejs.org/)
