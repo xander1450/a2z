@@ -6,11 +6,11 @@ The app follows a modern SSR + client‑side hydration pattern typical of Next.j
 
 ```mermaid
 flowchart TD
-    A[User opens browser] --> B[Next.js server renders page (SSR)]
+    A[User opens browser] --> B[Next.js server renders page - SSR]
     B --> C[HTML sent to client]
-    C --> D[Client‑side hydration]
+    C --> D[Client-side hydration]
     D --> E[Interactive UI components]
-    E --> F[API calls to backend (if any)]
+    E --> F[API calls to backend]
     F --> G[Render dynamic data]
     G --> H[Update UI]
 ```
