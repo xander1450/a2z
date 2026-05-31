@@ -2,6 +2,15 @@
   "name": "@xander1450/a2z-tools",
   "version": "0.1.0",
   "private": false,
+  "description": "A free, privacy-first collection of everyday tools for developers, writers, and makers.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xander1450/a2z.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xander1450/a2z/issues"
+  },
+  "homepage": "https://github.com/xander1450/a2z#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
