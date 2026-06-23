@@ -152,6 +152,22 @@ export const toolsMetadata: ToolMetadata[] = [
     seoDescription: "Write and edit Markdown syntax with instant side-by-side visual HTML previews. Ideal for documentation and markdown writers.",
     seoKeywords: ["markdown editor", "markdown previewer", "render markdown", "write markdown online"],
   },
+  {
+    id: "bg-remover",
+    name: "AI Background Remover",
+    slug: "bg-remover",
+    description: "Remove the background from your images instantly and entirely client-side using AI. Privacy-focused with local processing.",
+    category: "image-tools",
+    tags: ["image", "background", "remove", "ai", "utility"],
+    icon: "ImageMinus",
+    popular: true,
+    featured: true,
+    addedAt: "2026-06-23",
+    seoTitle: "Free Client-Side AI Background Remover Online - A-Z Tools",
+    seoDescription: "Remove background from images for free. Uses local browser AI for processing, keeping your images 100% private.",
+    seoKeywords: ["remove background", "bg remover", "image background remover", "transparent image", "free bg remover"],
+    isAi: true,
+  },
 ];
 
 /**

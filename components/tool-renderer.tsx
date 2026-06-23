@@ -46,6 +46,10 @@ const toolComponentsMap: Record<string, React.ComponentType<any>> = {
     loading: () => React.createElement("div", { className: "py-10 text-center animate-pulse text-muted-foreground font-medium text-xs" }, "Loading Markdown Previewer..."),
     ssr: false,
   }),
+  "bg-remover": dynamic(() => import("@/tools/bg-remover/component"), {
+    loading: () => React.createElement("div", { className: "py-10 text-center animate-pulse text-muted-foreground font-medium text-xs" }, "Loading AI Background Remover..."),
+    ssr: false,
+  }),
 };
 
 export function ToolRenderer({ slug }: { slug: string }) {
